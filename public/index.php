@@ -72,7 +72,7 @@ $arr = [
 //            echo $key.":".$item;
 //        }
 //    }
-include '/var/www/html/src/pages.php'
+include __DIR__.'/src/pages.php'
 ?>
 <!doctype html>
 <html lang="en">
