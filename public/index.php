@@ -1,44 +1,5 @@
 
-//$arr = [];
-//for ($i=1;$i < 10; $i++){
-//    $arr[$i] = $i;
-//    }
-//var_dump ($arr);
 
-//for ($i = 1; $i <= 5; $i++){
-//    echo "hhhhh";
-//    echo "<br>";
-//}
-//$arr = [2,45,66,5656,5,'fref' =>8,9,9];
-//foreach ($arr as $key => $item){
-//    echo $key.":".$item;
-//    echo '<br>';
-//}
-
-//$arr = [];
-//$i = 0;
-//
-//while ($i<10){
-//    $i++;
-//    $j = random_int(1,100);
-//    $arr[]=$j;
-//}
-//var_dump($arr);
-
-//$arr = [1,2,3,4,5,6,7,8,9,10];
-//foreach ($arr as $item){
-//    if($item%2 == 0){
-//        echo $item;
-//    }
-//}
-
-
-//$i= 0;
-//$arr = [1,2,3,4,5,6,7,8,9,10];
-//foreach ($arr as $item){
-//    $i=$i + $item;
-//}
-//echo $i;
 <?php
 //$pages= [
 //    ['title' => 'kkkfkfkfkfk1',
@@ -72,7 +33,7 @@ $arr = [
 //            echo $key.":".$item;
 //        }
 //    }
-include __DIR__.'/src/pages.php'
+include __DIR__.'/../src/pages.php';
 ?>
 <!doctype html>
 <html lang="en">
